@@ -5,7 +5,7 @@ import { mkdirSync, writeFileSync, rmSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
 const FORECAST =
-  "In Blorven, expect light rain of small umbrellas this afternoon, 19 degrees, with a 40 percent chance the umbrellas arrive already open and judging you.";
+  "In Blorven, expect light rain of small umbrellas this afternoon, 19 degrees, with a 40% chance the umbrellas arrive already open and judging you.";
 
 function fail(message: string): never {
   console.error(`error: ${message}`);
